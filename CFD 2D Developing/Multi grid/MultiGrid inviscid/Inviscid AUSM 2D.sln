@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "Inviscid AUSM 2D", "Inviscid AUSM 2D.vfproj", "{93B203F7-5248-4B9F-9DFF-C95A3BB5D256}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93B203F7-5248-4B9F-9DFF-C95A3BB5D256}.Debug|Win32.ActiveCfg = Debug|Win32
+		{93B203F7-5248-4B9F-9DFF-C95A3BB5D256}.Debug|Win32.Build.0 = Debug|Win32
+		{93B203F7-5248-4B9F-9DFF-C95A3BB5D256}.Release|Win32.ActiveCfg = Release|Win32
+		{93B203F7-5248-4B9F-9DFF-C95A3BB5D256}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

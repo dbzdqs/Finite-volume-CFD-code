@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{BDD64942-C351-417F-9927-94E0194A2A8C}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" RuntimeChecks="rtChecksNone" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole" StackReserveSize="999999999" StackCommitSize="999999999"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd;h;inc"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<Filter Name="EditMesh">
+		<File RelativePath="..\Subroutines and Documents\Equalize_Orient.f90"/>
+		<File RelativePath="..\Subroutines and Documents\First_Elem_Orient.f90"/></Filter>
+		<Filter Name="ExtractData">
+		<File RelativePath="..\Subroutines and Documents\EdgeOfCell.f90"/></Filter>
+		<Filter Name="Extrude2DMesh">
+		<File RelativePath="..\Subroutines and Documents\Extrude2DMesh.f90"/></Filter>
+		<Filter Name="Find">
+		<File RelativePath="..\Subroutines and Documents\Find_Neib.f90"/>
+		<File RelativePath="..\Subroutines and Documents\PointOfCell.f90"/></Filter>
+		<Filter Name="Mesh Coarsening">
+		<Filter Name="Edge Selection">
+		<File RelativePath="..\Subroutines and Documents\CalcCrossVectors.f90"/>
+		<File RelativePath="..\Subroutines and Documents\CalcMaxAngleDiff.f90"/>
+		<File RelativePath="..\Subroutines and Documents\CalcVerticesNN3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\CheckNeighborVertices3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\CheckNodesConnectivity.f90"/>
+		<File RelativePath="..\Subroutines and Documents\CorrectingBoundaryLayer3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\DefineBoundaryLayerIndexes3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\DetectRemovableEdges3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\DetectSeedNodes3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\DetectStretchNodes3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\DoLayering3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\FindBoundApexVertices.f90"/>
+		<File RelativePath="..\Subroutines and Documents\FindConnectedFaces.f90"/>
+		<File RelativePath="..\Subroutines and Documents\ReDefineSeedNodes3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\RemoveDiscreteLayerIndexes3D.f90"/></Filter>
+		<Filter Name="Mesh Coarsening">
+		<File RelativePath="..\Subroutines and Documents\AscSortArray.f90"/>
+		<File RelativePath="..\Subroutines and Documents\BoundPointLabeling3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\CellValidation.f90"/>
+		<File RelativePath="..\Subroutines and Documents\CheckDiagonalEdges.f90"/>
+		<File RelativePath="..\Subroutines and Documents\ConectedCell3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Decrease_CellFaces.f90"/>
+		<File RelativePath="..\Subroutines and Documents\DeformableCell.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Destroy_Tetrahdra.f90"/>
+		<File RelativePath="..\Subroutines and Documents\EdgeContraction3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\FaceOfCellV2.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Find_FaceNeib.f90"/>
+		<File RelativePath="..\Subroutines and Documents\FindConnectedEdges3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\PointOfCell3DV2.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Remove_Cell3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\RemoveContractedFaces3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\RemoveFace.f90"/>
+		<File RelativePath="..\Subroutines and Documents\VolumeCheck3D.f90"/></Filter>
+		<Filter Name="Metric Define">
+		<File RelativePath="..\Subroutines and Documents\CalcLocalSizeInNodeDirection3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\CalcMatrixInverseV2.f90"/>
+		<File RelativePath="..\Subroutines and Documents\CalcMinMaxLocalSize3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\CalcVectorNormInMetric3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\CellMetricDefination.f90"/>
+		<File RelativePath="..\Subroutines and Documents\FindMinMaxStretchNeib.f90"/>
+		<File RelativePath="..\Subroutines and Documents\HShockCorrection3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\MetricDefine3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\MulMatrix.f90"/>
+		<File RelativePath="..\Subroutines and Documents\NodeMetricCoarsening3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\NodeMetricCorrecting3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\NodeMetricInterpolate.f90"/>
+		<File RelativePath="..\Subroutines and Documents\ReduceMetricNodeSize3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\SVD.f90"/></Filter></Filter>
+		<Filter Name="ReadAndWrite">
+		<File RelativePath="..\Subroutines and Documents\Read_2DMesh.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Read_3DMesh.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Read_STL.f90"/>
+		<File RelativePath="..\Subroutines and Documents\ReadMSH.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Write2DMeshSepRgn_gid_plt.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Write3DMeshSepRgn_gid_plt.f90"/>
+		<File RelativePath="..\Subroutines and Documents\WriteMesh_gid.f90"/>
+		<File RelativePath="..\Subroutines and Documents\WriteMsh.f90"/>
+		<File RelativePath="..\Subroutines and Documents\WritePlaneMesh_cgid_plt.f90"/></Filter>
+		<File RelativePath=".\02-DANS_Extrude2DMesh.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{D8D7EA2B-131A-4947-9A98-694BB152F42D}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole" StackReserveSize="999999999" StackCommitSize="999999999"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Debug|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole" HeapReserveSize="999999999" HeapCommitSize="999999999" StackReserveSize="999999999" StackCommitSize="999999999"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole" StackReserveSize="999999999" StackCommitSize="999999999"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd;h;inc"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<Filter Name="ALE">
+		<File RelativePath="..\Subroutines and Documents\ConMeanFlow_AUSM3D_ALE.f90"/>
+		<File RelativePath="..\Subroutines and Documents\ConMeanFlow_ScalarDiss_ALE_3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Defin_BoundPoint_Displac_3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Dissipation_Jameson_ALE_3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\GridFlux_3D.f90"/></Filter>
+		<Filter Name="BC">
+		<File RelativePath="..\Subroutines and Documents\BC_InFlow3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\BC_Riemann3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\BC_Symmetry3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\BC_VisOutFlow3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\BC_Wall3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\BC_Wall3D_ALE.f90"/></Filter>
+		<Filter Name="ConvectionFirstOrd">
+		<File RelativePath="..\Subroutines and Documents\ConMeanFlow_AUSM_PlusUP3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\ConMeanFlow_ScalarDiss3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\DisJameson_3D.f90"/></Filter>
+		<Filter Name="ConvectionSecondOrd">
+		<File RelativePath="..\Subroutines and Documents\ConMeanFlow_AUSMPlus_HO3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\FirstOrd_Gradient3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Limiter3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Recons2Ord3D.f90"/></Filter>
+		<Filter Name="DiffusionMeanFlow">
+		<File RelativePath="..\Subroutines and Documents\DifMeanFlowTurbNoWallFu3D.f90"/></Filter>
+		<Filter Name="GradientCalculation">
+		<File RelativePath="..\Subroutines and Documents\GradFace3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\KFi_FaceGrad3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Kw_CellGrad3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Velocity_CellGrad3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\VelTemp_GradFace3D.f90"/></Filter>
+		<Filter Name="Implicit">
+		<Filter Name="BLUSGS">
+		<File RelativePath="..\CFD 3D developing\implicit\sub\BLUSGS.f90"/></Filter>
+		<Filter Name="eigVal">
+		<File RelativePath="..\CFD 3D developing\implicit\sub\Calculate_eigMatrixMeanFlow.f90"/>
+		<File RelativePath="..\CFD 3D developing\implicit\sub\Calculate_eigValMeanFlow.f90"/>
+		<File RelativePath="..\CFD 3D developing\implicit\sub\Calculate_eigValTurb.f90"/></Filter>
+		<Filter Name="General sub">
+		<File RelativePath="..\CFD 3D developing\implicit\sub\Increment.f90"/>
+		<File RelativePath="..\CFD 3D developing\implicit\sub\IncrementTurb.f90"/>
+		<File RelativePath="..\CFD 3D developing\implicit\sub\m55INV2.f90"/>
+		<File RelativePath="..\CFD 3D developing\implicit\sub\MeshPreprocForImplicit.f90"/>
+		<File RelativePath="..\CFD 3D developing\implicit\sub\Multiply.f90"/>
+		<File RelativePath="..\CFD 3D developing\implicit\sub\NeibOfCell3D.f90"/></Filter>
+		<Filter Name="GMRES">
+		<File RelativePath="..\CFD 3D developing\implicit\sub\GMRES.f90"/>
+		<File RelativePath="..\CFD 3D developing\implicit\sub\mgmres.f90"/></Filter>
+		<Filter Name="Jacobi">
+		<File RelativePath="..\CFD 3D developing\implicit\sub\Calculate_Jacobi_neighb.f90"/>
+		<File RelativePath="..\CFD 3D developing\implicit\sub\Jaco_viscous.f90"/></Filter>
+		<Filter Name="LUSGS">
+		<File RelativePath="..\CFD 3D developing\implicit\sub\LUSGS.f90"/>
+		<File RelativePath="..\CFD 3D developing\implicit\sub\LUSGSTurb.f90"/></Filter>
+		<File RelativePath="..\CFD 3D developing\implicit\02-AirFlow_ImplicitTurb_3D.f90"/>
+		<File RelativePath="..\CFD 3D developing\implicit\sub\KeLB_MainImplicit_f.f90"/></Filter>
+		<Filter Name="Initialize">
+		<File RelativePath="..\Subroutines and Documents\InitMeanFlow3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\InitMeanFlow_Inviscid3D.f90"/></Filter>
+		<Filter Name="MovingMesh">
+		<File RelativePath="..\Subroutines and Documents\BoundPointLabeling_3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\hybrid_greedy_algorithm_3D_2.f90"/>
+		<File RelativePath="..\Subroutines and Documents\LU_Solver.f90"/>
+		<File RelativePath="..\Subroutines and Documents\RBF_Coefficient_Matrix_3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\RBF_Function_3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\RBF_Greedy_Moving_Mesh_3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\RBF_Point_Dispalcement_3D.f90"/></Filter>
+		<Filter Name="NewEditionSub">
+		<File RelativePath="..\Subroutines and Documents\FaceOfCellV3.f90"/>
+		<File RelativePath="..\Subroutines and Documents\FaceValuToCell.f90"/>
+		<File RelativePath="..\Subroutines and Documents\GeoCal3DV2.f90"/></Filter>
+		<Filter Name="PostProc">
+		<File RelativePath="..\Subroutines and Documents\CalculateLESVariables3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\PressLiftDragCo_3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\ResMass3D.f90"/></Filter>
+		<Filter Name="Preproc">
+		<File RelativePath="..\Subroutines and Documents\FaceOfCell.f90"/>
+		<File RelativePath="..\Subroutines and Documents\GeoCal3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\GeoCalAnyShape3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\MeshBC3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\PointOfCell3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\WallDistance3D.f90"/></Filter>
+		<Filter Name="ReadAndWrite">
+		<File RelativePath="..\Subroutines and Documents\Read_3DMesh.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Read_Setting.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Read_Write_Position.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Write3DMeshSepRgn_gid_plt.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Write_CF3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Write_CF3DUnsteady.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Write_ConservativeVariables3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Write_CP3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Write_CP3DUnsteady.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Write_FlatPlateAnalyticData3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Write_LESVariables3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Write_ScalarContour3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Write_VelocityContour3D.f90"/></Filter>
+		<Filter Name="TimeStep">
+		<File RelativePath="..\Subroutines and Documents\TimSTP_Inviscid3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\TimSTP_Laminar3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\TimSTP_Turb3D.f90"/></Filter>
+		<Filter Name="TurbulenceModeling">
+		<Filter Name="GneralSub">
+		<File RelativePath="..\Subroutines and Documents\KFi_Con3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\KFi_Dif3D.f90"/></Filter>
+		<Filter Name="KeLB">
+		<File RelativePath="..\Subroutines and Documents\Ke_Init.f90"/>
+		<File RelativePath="..\Subroutines and Documents\KeLB_BC3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\KeLB_Main3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\KeLB_Main3D_DualTimStp.f90"/>
+		<File RelativePath="..\Subroutines and Documents\KeLB_Source3D.f90"/></Filter>
+		<Filter Name="KwSST">
+		<File RelativePath="..\Subroutines and Documents\Kw_BC3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Kw_Init.f90"/>
+		<File RelativePath="..\Subroutines and Documents\KwSST_Dif3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\KwSST_Func3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\KwSST_Main3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\KWSST_Main3D_DualTimStp.f90"/>
+		<File RelativePath="..\Subroutines and Documents\KwSST_Source3D.f90"/></Filter>
+		<Filter Name="KwSST_Trans">
+		<File RelativePath="..\CFD 3D developing\Transition\sub of mohammadi\KwSST_Trans_BC3D.f90"/>
+		<File RelativePath="..\CFD 3D developing\Transition\sub of mohammadi\KwSST_Trans_CellGrad3D.f90"/>
+		<File RelativePath="..\CFD 3D developing\Transition\sub of mohammadi\KwSST_Trans_Con3D.f90"/>
+		<File RelativePath="..\CFD 3D developing\Transition\sub of mohammadi\KwSST_Trans_Dif3D.f90"/>
+		<File RelativePath="..\CFD 3D developing\Transition\sub of mohammadi\KwSST_Trans_FaceGrad3D.f90"/>
+		<File RelativePath="..\CFD 3D developing\Transition\sub of mohammadi\KwSST_Trans_Func3D.f90"/>
+		<File RelativePath="..\CFD 3D developing\Transition\sub of mohammadi\KwSST_Trans_Init3D.f90"/>
+		<File RelativePath="..\CFD 3D developing\Transition\sub of mohammadi\KwSST_Trans_Source3D.f90"/>
+		<File RelativePath="..\CFD 3D developing\Transition\sub of mohammadi\KWSST_Transition_Main3D.f90"/></Filter>
+		<Filter Name="KwWilcox">
+		<File RelativePath="..\Subroutines and Documents\KwWilcox_Main3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\KwWilcox_Source3D.f90"/></Filter>
+		<Filter Name="LES Smagorinsky">
+		<File RelativePath="..\Subroutines and Documents\LES_Cell_Gradiant3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\LES_DSmag_Eddy3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\LES_DSmag_IsoSGS3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\LES_DSmag_Main3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\LES_Explicit_Averaging3D.f90"/></Filter>
+		<Filter Name="LES_WALE">
+		<File RelativePath="..\Subroutines and Documents\LES_WALE_Main3D.f90"/></Filter>
+		<Filter Name="SA">
+		<File RelativePath="..\Subroutines and Documents\SA_BC3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\SA_CellGrad3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\SA_Con3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\SA_Dif3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\SA_FaceGrad3D.F90"/>
+		<File RelativePath="..\Subroutines and Documents\SA_Init3D.F90"/>
+		<File RelativePath="..\Subroutines and Documents\SA_Main3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\SA_ProdDest3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\StrainRateMag3D.f90"/>
+		<File RelativePath="..\Subroutines and Documents\Vorticity3D.f90"/></Filter></Filter>
+		<File RelativePath=".\Implementation and Code\02-DANS_Turb_3D.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>
